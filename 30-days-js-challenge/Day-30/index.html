@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>30 Days Challenge</title>
+     <style>
+        form{
+            max-width: 500px;
+            height: auto;
+            margin: 5% auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+            padding:1rem;
+        }
+        form input{
+            width: 90%;
+            padding: 10px;
+            outline: none;
+        }
+        form button{
+            width: 95%;
+            background-color: blue;
+            color: #fff;
+            border: none;
+            padding: 8px 16px;
+            border:1px solid blue;
+            font-size: 18px;
+            font-weight: bold;
+
+        }
+        form input:hover{
+            border:2px solid blue;
+ 
+        }
+        #display-user{
+            max-width: 500px;
+            height: auto;
+            margin: 5% auto;
+            background-color: #fff;
+            box-shadow: 0 0 10px 0px rgba(0, 0, 0, 0.1);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: 10px;
+            align-items: center;
+            padding:1rem;
+
+        }
+        #user{
+            color: navy;
+            font-size: 18px;
+            font-weight: bold;
+        }
+     </style>  
+</head>
+<body>
+    <h1 style="background-color: rgb(247, 7, 99); color: #fff; height: 50px; text-align: center;">30 Days Challenges</h1>
+    <h3 style="background-color:rgb(98, 7, 243); color: #fff; height: 30px; text-align: center;">Day 30(Retrieve data from  localstorage)</h3>
+    <!-- Day 02 -->
+
+    <form id="form">
+        <h3>Retreive Data from localstorage</h3>
+        <input type="text"  id="username" placeholder="enter username">
+        <button id="savebtn">Save</button>
+    </form>
+    <div id="display-user">
+        <h3>user's name</h3>
+        <h4 id="user">
+            
+        </h4>
+
+    </div>
+      <script src="./main.js"></script>
+</body>
+</html>
